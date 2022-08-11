@@ -1,0 +1,17 @@
+abcdefghij
+15
+reverse 3 7
+print 1 8
+replace 1 3 xyz
+print 1 8
+replace 4 6 fff
+print 1 8
+replace 5 5 o
+print 1 8
+reverse 3 7
+print 1 8
+replace 8 9 xy
+print 0 9
+reverse 3 8
+reverse 0 5
+print 0 9
