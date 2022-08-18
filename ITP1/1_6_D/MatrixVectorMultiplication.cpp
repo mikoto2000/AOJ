@@ -9,10 +9,10 @@ int main(int argc, char* argv[]) {
     cin >> n >> m;
 
     // 行列を取得
-    unsigned short matrixA[n * m];
+    unsigned short matrixA[n][m];
     for (short i = 0; i < n; i++) {
         for (short j = 0; j < m; j++) {
-            cin >> matrixA[i * m + j];
+            cin >> matrixA[i][j];
         }
     }
 
@@ -28,7 +28,7 @@ int main(int argc, char* argv[]) {
         int sum = 0;
 
         for (int j = 0; j < m; j++) {
-            sum += matrixA[i * m + j] * vectorB[j];
+            sum += matrixA[i][j] * vectorB[j];
         }
         
         resultC[i] = sum;
