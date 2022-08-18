@@ -7,7 +7,7 @@ using namespace std;
 int main(int argc, char* argv[]) {
 
     // initialize count of char.
-    int count[25];
+    int count[26];
     for (int i = 0; i < 26; i++) {
         count[i] = 0;
     }
